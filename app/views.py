@@ -10,6 +10,9 @@ def index():
 @app.route('/hotfix')
 def hotfix():
     return "this is a hotfix"
-@app.route('/hello')
+
+
+@app.route('/is2')
 def hello():
-    return "hello"
+    return "is2"
+
