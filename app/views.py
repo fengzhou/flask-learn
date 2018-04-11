@@ -6,6 +6,10 @@ from app import app
 def index():
     return render_template('index.html')
 
+
 @app.route('/hotfix')
 def hotfix():
     return "this is a hotfix"
+@app.route('/hello')
+def hello():
+    return "hello"
