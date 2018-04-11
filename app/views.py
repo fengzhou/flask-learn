@@ -11,6 +11,9 @@ def index():
 def hotfix():
     return "this is a hotfix"
 
+@app.route('/master')
+def master():
+    return "master"
 
 @app.route('/is2')
 def hello():
