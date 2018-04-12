@@ -19,3 +19,6 @@ def master():
 def hello():
     return "is2"
 
+@app.route('/is3')
+def startTask():
+    return 'task run success'

@@ -24,7 +24,6 @@ l = ['a','b','c','d']
 
 c = random.sample(l,2)
 
-index = 0
 
 def insert_user():
     with db.app.app_context():
